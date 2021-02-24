@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.top-sec,
+.mid-sec,
+.bottom-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.check-number-container {
+  display: flex;
+}
+.check-number {
+  margin-left: 0.75rem;
+}
